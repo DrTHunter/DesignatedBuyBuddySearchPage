@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Search Results | Orion AI Real Estate Network</title>
 
-  <!-- Buying Buddy plugin (must be in head) -->
+  <!-- Buying Buddy plugin v5.02 for General HTML -->
   <script src="https://www.mbb2.com/version3/css/theme/acid/iUGUuSwb"></script>
   <script>
     var MBB = { seo: "false", data: { acid: "iUGUuSwb" } };
@@ -13,11 +13,21 @@
   </script>
   <script src="https://maps.googleapis.com/maps/api/js?callback=mbbMapLoaded&libraries=places&key=AIzaSyBNolVKe1C5v2BZwPnNT7XvxXtYvlAs0ME"></script>
   <script src="https://d2w6u17ngtanmy.cloudfront.net/scripts/my-buying-buddy.5.0.js.gz"></script>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 2rem;
+    }
+    #MBBv3_ListingResults {
+      min-height: 600px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Search Results</h1>
-  <div id="MBBv3_ResultsPage"></div> <!-- This is the Buying Buddy results widget -->
-
-  <!-- Optional styling or footer -->
+  <h1>Property Search Results</h1>
+  <div id="MBBv3_ListingResults"></div>
 </body>
 </html>
